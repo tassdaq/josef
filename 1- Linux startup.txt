@@ -1,0 +1,84 @@
+
+	Module-2 Linux
+	
+	Linux is a widely used open-source operating system kernel that serves 
+	as the core component of various Linux-based operating systems.  
+
+	It provides essential functionalities for managing hardware resources, processes, and file systems. 
+	Linux is known for its stability, security, and versatility, making it a popular choice for a wide range of computing devices, 
+	including servers, desktops, mobile devices, and embedded systems. 
+	It is part of the broader family of Unix-like operating systems and is characterized 
+	by its command-line interface and support for a vast ecosystem of software applications.
+
+
+	Linux	Distribution: 
+	Ubuntu
+	Debian
+	Fedora
+	CentOS: Azamon linux AWS
+	Red Hat Enterprise Linux (RHEL): 
+	openSUSE
+	Kali Linux
+
+	
+---------------------------------------------------------------------------------------------------------
+	
+	Windows 			Hardware + OS + Shell/CLI + GUI	  4 layer
+	Linux:				Hardware + kernel + shell/CLI	  3 Layer
+
+	Linux	-					Windows
+		Directory				Folder
+		File					File	
+		root					Administrator
+		Install packages			Install software.
+		(/-root   )				c:\
+--------------------------------------------------------------------------------------------------------------------
+
+		Launch Amazon Linux Ec2 Instance and establish connectivity using puttygen and Putty
+		Create Amazon Linux AWS and establish connectivity with pc/laptop via putty and Amazon Web console
+
+
+Learn and use Linux File and Directory Operation commands
+
+#ec2-user$ user level 	(ec2-user AWS default user)
+# root level		(Linux super user do )
+##sudo -i		(change normal user to root user)	
+#pwd   			(show current path)
+#ls 			(list command)
+#ls  -a 		(show hidden files)
+#cd /                   (change directory in root)
+#mkdir dir1		(Making directory)
+#cd dir1		(Change directory)										
+#touch 			(Create Empty file)
+#cp file1 file2		(copy file1 to file2)
+#history		(show all recent used commands)
+#rm -rf dir or file	(remove file or directory ) 
+#yum install update 	(Install update) 
+#yum install httpd 	(Install httpd or apache)
+#systemctl status httpd	(Show httpd status) 
+#systemctl start httpd	(Show httpd start)
+#top			(Just like task manager) 
+#date			(display date)
+#ll																			(detail directory and files)
+#rm -rf dir or file 	(Delete all files and directories forcefully)
+----------------------------------------------------------------------------------------------------------------
+
+
+
+			Create EC2 Instance Ubuntu and Amazon Linux
+			install nginx and httpd
+			create page and publish via public IP
+
+			
+		
+
+	
+
+
+
+
+
+			mkdir    directory 
+			touch	 files
+
+

@@ -1,0 +1,75 @@
+
+#sudo: Used to execute commands with administrative privileges. For example:
+sudo yum install update 
+
+#yum: Package manager for CentOS , used for installing, 
+#updating, and managing software packages  ( cd /var/www/html )  
+sudo yum install httpd
+
+#systemctl: Command used to control and manage system services, such as starting, 
+#stopping, enabling, and disabling services.
+sudo systemctl start httpd
+sudo systemctl start NetworkManager
+
+
+#firewall-cmd: Command used to manage the firewall settings in CentOS, including opening 
+#or closing ports, adding or removing rules, and managing zones.
+sudo firewall-cmd --add-port=80/tcp --permanent
+
+#ifconfig: Command used to configure and display network interface information, 
+#including IP addresses, MAC addresses, and more
+ifconfig
+ip addr
+
+
+#ls: Command used to list files and directories in the current directory.
+ls
+
+#cd: Command used to change directory.
+cd /path/to/directory
+
+mkdir: Command used to create a new directory.
+mkdir DevOps
+
+#rm: Command used to remove files or directories.
+rm DevOps
+
+#vi vim: Text editors used to create and edit files in CentOS.
+# Press I for Insert and than ESC :wq save and exit from editor
+vi File1 
+
+
+#grep: Command used to search for a pattern in a file or a set of files.
+grep "pattern" file_name
+
+#tar: Command used to create, extract, and manage tar archives.
+tar -zxvf archive.tar.gz
+
+#chmod: Command used to change the permissions of files and directories.
+chmod 777 File1
+
+#chown: Command used to change the ownership of files and directories.
+chown user_name:group_name file_name
+
+#hostname: Check the current hostname of the system using the hostname command
+hostname
+
+#Change the hostname 
+sudo hostnamectl set-hostname new_hostname
+
+
+#DNS info settings 
+#and cat /etc/resolv.conf command for DNS settings ip addr
+cat /etc/resolv.conf 
+vi /etc/resolv.conf 
+
+
+#display the CentOS release/edition information:
+cat /etc/centos-release
+
+# Want to domain name (hysec.com.pk)behind IP address
+nslookup 
+
+
+
+
